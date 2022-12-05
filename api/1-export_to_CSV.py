@@ -19,4 +19,3 @@ if __name__ == "__main__":
         for task in tasks:
             write_file.writerow([int(id_user), username,
                                 task.get('completed'), task.get('title')])
-
